@@ -1,0 +1,200 @@
+@media  (min-width: 480px) and  (max-width: 900px) { 
+    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+    body{
+    width: 100%;
+    height: max-content;
+    padding: 0;
+}
+.details{
+width: 100%;
+padding: 2vh 3vh;
+margin: 0%;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 1vh;
+    position: relative;
+    height: max-content;
+    padding: 0 2vh;
+   
+}
+.navlinks{
+    width: max-content;
+    height: 100%;
+    
+}
+.nav-icons{
+    height: 3vh;
+}
+nav{
+    display: none;
+}
+.menu{
+    display: block;
+    height: 3vh;
+    width: 7vh;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: large;
+   
+}
+.Welcome{
+   position: absolute;
+    top: 20vh;
+    left: 2vh;
+    margin: 1vh auto;
+    color: #C6B75B;
+    font-size: 10vh;
+}
+.profile-img{
+  
+     height: 50vh;
+   width: 200px;
+   position: absolute;
+   top: 20%;
+   right: 7%;
+}
+.wlcmtxt{
+
+       position: absolute;
+    height: max-content;
+    width: 50%;
+background-color: #1D1D20;
+ top: 50vh;
+    left: 10%;
+    border-left: 2px solid #C6B75B;
+    color: white;
+    padding: 0 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: Georgia;
+    line-height: 30px;
+    margin: 1vh auto;
+}
+.mblgit{
+    position: absolute;
+    top: 60vh;
+    left: 5vh;
+    width: 20%;
+    height: 4%;
+    border-radius: 2px;
+    padding: 1px 2px;
+}
+.about{
+    
+    position: relative;
+    padding: 0%;
+    height: max-content;
+}
+.abtme{
+    display: flex;
+    flex-direction: column;
+  
+    position: relative;
+    padding: 0;
+    height: max-content;
+}
+.abtimg{
+      /* height: 50vh; */
+   width: 100%;
+}
+.abtdtls{
+    width: 100%;
+    padding: 2vh 5vh;
+   
+}
+.aboutservices{
+    width: 100%;
+    margin: 0%;
+    padding: 2vh 3vh;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+ }
+ .mblabtclr{
+
+    width: 100%;
+    height: max-content;
+    margin: 0%;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 100%;
+    height: 30%;
+   
+}
+.service{
+     height: 31%;
+   width: 100%;
+   margin: 0 auto;
+  
+   background-color: #C6B75B;
+   box-sizing: border-box;
+   border: none;
+   border-radius: 1vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   position: relative;
+}
+.mblskllimg{
+    display: none;
+}
+.mblsklls{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.level{
+    box-sizing: border-box;
+    width: 100%;
+}
+.comp-img{
+    display: none;
+}
+.infm{
+    display: none;
+}
+.form{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    height: max-content;
+}
+.portfolios{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.abtdtls{
+    height: max-content;
+}
+
+
+
+
+
+
+
+
+
+}
