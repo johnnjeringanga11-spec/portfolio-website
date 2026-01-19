@@ -61,7 +61,7 @@ nav{
    width: 200px;
    position: absolute;
    top: 20%;
-   right: 10%;
+   right: 7%;
 }
 .wlcmtxt{
 
@@ -84,7 +84,7 @@ background-color: #1D1D20;
 }
 .mblgit{
     position: absolute;
-    top: 60vh;
+    top: 63vh;
     left: 5vh;
     width: max-content;
     height: max-content;
@@ -184,6 +184,7 @@ background-color: #1D1D20;
 .abtdtls{
     height: max-content;
 }
+
 
 
 
