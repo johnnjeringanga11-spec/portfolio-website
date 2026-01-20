@@ -173,7 +173,9 @@ background-color: #1D1D20;
 .form{
     width: 100%;
     box-sizing: border-box;
-    padding: 1vh;
+    padding: 1vh auto;
+    justify-content: center;
+    align-items: center;
 }
 #form{
     padding: 0 12px;
@@ -196,4 +198,5 @@ background-color: #1D1D20;
 
 
 }
+
 
