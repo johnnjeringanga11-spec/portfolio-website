@@ -61,7 +61,7 @@ nav{
    width: 200px;
    position: absolute;
    top: 20%;
-   right: 7%;
+   right: 3%;
 }
 .wlcmtxt{
 
@@ -173,9 +173,14 @@ background-color: #1D1D20;
 .form{
     width: 100%;
     box-sizing: border-box;
-    padding: 2vh;
+    padding: 1vh;
 }
-
+#form{
+    padding: 0 12px;
+    width: 100%;
+    box-sizing: border-box;
+ 
+}
 .portfolios{
     display: flex;
     flex-direction: column;
@@ -191,3 +196,4 @@ background-color: #1D1D20;
 
 
 }
+
