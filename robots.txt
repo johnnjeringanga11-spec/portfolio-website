@@ -1,0 +1,5 @@
+user-agent:*
+Allow: /
+
+Sitemap:
+https://johnnjenga254.com/sitemap.xml

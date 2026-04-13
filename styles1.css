@@ -1,0 +1,458 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+             background-color: white;
+           /*  background-color: #f8fafc; */
+            color: black;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 10%;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: indigo;
+            /* color: rgb(5, 219, 5); */
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            margin-left: 2rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color:rgb(5, 219, 5);
+        }
+
+        #btn-nav {
+            background: rgb(5, 219, 5);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+        }
+        #btn-nav:hover{
+            background: rgb(5, 219, 5);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 3rem 10%;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            align-items: start;
+            gap: 4rem;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: black;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #64748b;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn-primary {
+            background: rgb(5, 219, 5);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .btn-secondary {
+            background: white;
+            border: 2px solid indigo;
+            color: indigo;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .btn-primary:hover { transform: translateY(-2px); }
+
+        .hero-image-area {
+            background: transparent;
+            height: 400px;
+            margin-top: 0%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 20px 20px 60px #d1d9e6;
+        }
+        .hero-image{
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Features Section */
+        .section {
+            padding: 5rem 10%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: indigo;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            padding: 2.5rem;
+            border-radius: 12px;
+            background: rgb(246, 246, 254);
+            transition: 0.3s;
+            border: 1px solid transparent;
+        }
+        
+        .card:hover {
+            border-color: rgb(5, 219, 5);
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .call-to-action-section{
+           text-align: center; 
+           background: rgb(5, 219, 5); 
+           color: white; 
+        }
+        .call-to-action-heading{
+            font-size: 2.5rem; 
+            margin-bottom: 1.5rem;
+        }
+        .call-to-action-paragraph{
+            font-size: 1.2rem; 
+            margin-bottom: 2rem;
+        }
+        .call-to-action-a{
+           background: indigo; padding: 1.2rem 3rem; 
+        }
+
+        .card i {
+            color: green;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .card h3 {
+            margin-bottom: 1rem;
+            color: indigo;
+        }
+
+        /* How it Works */
+        .steps {
+            background: #4B0082;
+            color: white;
+        }
+
+        .steps h2 { color: white; }
+
+        .step-item {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: green;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Pricing */
+        .price-card {
+            border: 1px solid #e2e8f0;
+            padding: 3rem 2rem;
+            border-radius: 16px;
+            text-align: center;
+        }
+
+        .price-card.featured {
+            border: 2px solid green;
+            transform: scale(1.05);
+            background: white;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 1rem 0;
+            color: indigo;
+        }
+        .contact-section{
+            width: 100%;
+            padding: 0%;
+            margin: 0%;
+        }
+        .form-container{
+            width: 100%;
+            height: max-content;
+            display: flex;
+            justify-content: center;
+
+        }
+        .form{
+            width: 40%;
+           background: rgb(246, 246, 254);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-radius: 1rem;
+            padding: 4vh 0;
+            gap: 3vh;
+            color: #4B0082;
+            
+        }
+        .inputs-div{
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 3vh;
+        }
+        .inputs-label{
+            width: 100%;
+            gap: 0.5vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: start;
+            background-color: transparent;
+            padding: 0.1rem 2rem;
+        }
+        .inputs-label input,textarea,button{
+          width: 100%;
+          height: 7vh;
+          border-radius: 0.4rem;
+          padding: 0 1rem;
+          outline: none;
+          font-size: medium;
+          border: 0.01rem solid #4B0082;
+        }
+        #menu{
+            width: max-content;
+            height: max-content;
+            padding: 0.5rem 1rem;
+            background-color: rgb(5, 219, 5);
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        .mobile-nav-active{
+            display: flex;
+        }
+        .mobile-nav{
+            width: 60vw;
+            display: none;
+            flex-direction: column;
+            justify-content: start;
+            gap: 1vh;
+            height: calc(100%);
+            z-index: 1000;
+            position: fixed;
+            top: 0%;
+            right: 0%;
+            background-color: #4B0082;
+            color: white;
+            scroll-behavior: none;
+        }
+        .mobile-nav a{
+            color: white;
+        }
+        .mobile-nav-div{
+            width: 100%;
+            height: 7vh;
+            background-color: transparent;
+            position: relative;
+        }
+        .close-menu-btn{
+           background-color: rgb(5, 219, 5);
+           color: white;
+           cursor: pointer;
+           border: none;
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            top: 2vh;
+            left: 2vw;
+            
+        }
+        .nav-container{
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 1vh;
+        }
+        .nav-container a{
+            text-decoration: none;
+            color: white;
+            transition: 0.1s ease;
+        }
+        .nav-container a:hover{
+             border-bottom: 1px solid white;
+        }
+        .nav-icons{
+            width: 100%;
+            height: max-content;
+            background-color: transparent;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1vh 1vw;
+        }
+        .nav-icons img{
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+        }
+        .portfolio-card {
+            padding: 1rem;
+            border-radius: 12px;
+            background: rgb(246, 246, 254);
+            transition: 0.3s;
+            border: 1px solid transparent;
+            height: 25rem;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .portfolio-card img{
+            width: 100%;
+            height: 50%;
+        }
+
+        .gd-card {
+            padding: 1rem;
+            border-radius: 12px;
+            background: rgb(246, 246, 254);
+            transition: 0.3s;
+            border: 1px solid transparent;
+        }
+        .gd-card img{
+            width: 100%;
+            height: 100%;
+        }
+        .card-nav-div{
+            width: 100%;
+            margin-top: 2vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+         #livedemo{
+            background-color: rgb(5, 219, 5);
+            border: none;
+            color: white;
+         }
+         .card-nav-div a{
+            text-decoration: none;
+            color: #4B0082;
+            background-color: transparent;
+            width: max-content;
+            height: max-content;
+            padding: 0.1rem 1rem;
+            border-radius: 15px;
+            border: 2px solid #4B0082;
+            transition: 0.1s ease;
+         }
+         .card-nav-div a:hover{
+            scale: 1.01;
+         }
+        
+
+        /* Footer */
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 4rem 10% 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+        .footer-links{
+            text-decoration: none;
+            color: #94a3b8;
+            transition: 0.1s ease;
+        }
+        .footer-links:hover{
+            color: white;
+        }
+        
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .hero { grid-template-columns: 1fr; text-align: center; }
+            .cta-group { justify-content: center; }
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .form{width: 100%;}
+        }
+        @media (min-width: 968px) {
+            #menu{display: none;}
+            
+        }
