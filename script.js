@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
  
  
@@ -42,10 +42,11 @@
     } catch (error) {
       alert(error)
     }
+     });
 
     
       
-=======
+
  document.getElementById("form").addEventListener("submit", async (e)=>{
     e.preventDefault();
 
@@ -58,5 +59,4 @@
    if(sent){
    document.getElementById("displayer").textContent = "Your message was sent successfully";
    }
->>>>>>> ecd578c4419ad95ccd7a20b4d02f505545e6152b
  });
